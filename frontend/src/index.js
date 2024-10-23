@@ -14,7 +14,7 @@ import { Provider } from 'react-redux'
 import { store } from './redux/store';
 
 
-axios.defaults.baseURL = 'http://localhost:8000/api/'
+axios.defaults.baseURL = process.env.REACT_APP_BACKEND_URL
 
 
 
